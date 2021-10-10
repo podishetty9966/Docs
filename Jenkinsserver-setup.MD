@@ -4,7 +4,10 @@
 ```sh
 yum install wget
 wget http://apachemirror.wuchna.com/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
+mv apache-maven-3.6.3-bin.tar.gz /opt/
+cd /opt/
 tar -xvzf apache-maven-3.6.3-bin.tar.gz
+cd ~
 export M2_HOME=/opt/apache-maven-3.6.3
 export M2=$M2_HOME/bin
 PATH=$PATH:$M2
