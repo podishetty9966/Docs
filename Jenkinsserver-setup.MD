@@ -17,6 +17,7 @@ M2=$M2_HOME/bin
 export M2
 PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2
 source ~/.bash_profile
+yum install -y maven
 ```
 
 ## Install git
