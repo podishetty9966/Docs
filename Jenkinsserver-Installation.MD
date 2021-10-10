@@ -21,6 +21,8 @@ find /usr/lib/jvm/java-1.8* | head -n 3
 export JAVA_HOME
 PATH=$PATH:$JAVA_HOME
 # To set it permanently update your .bash_profile
+export JAVA_HOME
+PATH=$PATH:$HOME/bin:$JAVA_HOME
 source ~/.bash_profile
 ```
 _The output should be something like this,_
@@ -67,8 +69,8 @@ http://YOUR-SERVER-PUBLIC-IP:8080
 - Create another admin user id
 
 ### Test Jenkins Jobs
-1. Create ìnew itemî
-1. Enter an item name ñ `My-First-Project`
+1. Create ‚Äúnew item‚Äù
+1. Enter an item name ‚Äì `My-First-Project`
    - Chose `Freestyle` project
 1. Under Build section
 	Execute shell : echo "Welcome to Jenkins Demo"
